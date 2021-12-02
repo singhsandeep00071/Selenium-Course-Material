@@ -22,6 +22,8 @@ public class OpenLinks {
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("http://qaclickacademy.com/practice.php");
+		
+		System.out.println("sandeep");
 
 		System.out.println(driver.findElements(By.tagName("a")).size());
 
