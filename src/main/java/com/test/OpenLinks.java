@@ -24,6 +24,7 @@ public class OpenLinks {
 		driver.get("http://qaclickacademy.com/practice.php");
 		
 		System.out.println("sandeep");
+		System.out.println("singh");
 
 		System.out.println(driver.findElements(By.tagName("a")).size());
 
